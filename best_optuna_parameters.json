@@ -1,0 +1,11 @@
+{
+    "iterations": 1000,
+    "depth": 4,
+    "learning_rate": 0.2799906421096229,
+    "l2_leaf_reg": 9.549974814381367,
+    "random_strength": 0.3351300948553375,
+    "border_count": 157,
+    "grow_policy": "Depthwise",
+    "min_data_in_leaf": 42,
+    "od_pval": 0.005028659638444408
+}

@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "dse-car-crushes"
+version = "0.1.0"
+description = ""
+authors = ["Vlad <64474556+Vatereal@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+catboost = "^1.2.7"
+optuna = "^4.1.0"
+statsmodels = "^0.14.4"
+scikit-learn = "^1.6.0"
+folium = "^0.19.2"
+pandas = ">=1.4,<3.0"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+python-dateutil = "^2.9.0.post0"
+plotly = "^5.24.1"
+prophet = "^1.1.6"
+statsforecast = "^2.0.0"
+matplotlib = ">=3.5,<4.0"
+numpy = ">=1.23,<2.0"
+scipy = ">=1.8,<2.0"
+torch = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
